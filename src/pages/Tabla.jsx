@@ -40,10 +40,6 @@ function Tabla() {
         })
     };
 
-    const editar = async (id) => {
-        console.log(id);
-    };
-
     useEffect(() => {
         getData();
     }, []);
